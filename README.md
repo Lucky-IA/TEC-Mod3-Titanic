@@ -41,12 +41,29 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
+> Project Structure
 
+    ├── data
+    │   ├── clean
+    │   ├── raw
+    ├── src
+    │   ├── classifier
+    │   ├── load
+    │   ├── notebooks
+    │   ├── train
+    │   ├── transform
+    ├── tests
+    │   ├── integration
+    │   ├── unit
+    
+    ├── .gitignore
+    ├── LICENSE
+    ├── README.md
+    ├── requirements.txt
 
 ## Serve Model with FastAPI
 
 
 
 ## Good Development Practices
-
 
