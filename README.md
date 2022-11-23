@@ -46,10 +46,10 @@ $ pip install -r requirements.txt
     ├── data
     │   ├── clean
     │   ├── raw
+    ├── notebooks
     ├── src
     │   ├── classifier
     │   ├── load
-    │   ├── notebooks
     │   ├── train
     │   ├── transform
     ├── tests
