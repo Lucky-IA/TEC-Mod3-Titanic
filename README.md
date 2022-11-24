@@ -46,6 +46,7 @@ $ pip install -r requirements.txt
     ├── data
     │   ├── clean
     │   ├── raw
+    ├── models
     ├── notebooks
     ├── src
     │   ├── classifier

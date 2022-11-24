@@ -2,3 +2,4 @@ pandas==1.3.5
 pytest
 black
 pandas-profiling
+scikit-learn
