@@ -3,3 +3,5 @@ pytest
 black
 pandas-profiling
 scikit-learn
+uvicorn
+fastapi

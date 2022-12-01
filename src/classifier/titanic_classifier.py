@@ -28,7 +28,7 @@ if __name__ == "__main__":
         dic = {"pclass": 1, "sex": "female", "age": 29, "fare": 211.33, "embarked": "S"}
         pred = model.PredictModel(dic)
 
-        print(pred)
+        print(pred[0])
         
     except Exception as err:
         print("Something went wrong...")
