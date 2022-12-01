@@ -53,9 +53,6 @@ $ pip install -r requirements.txt
     │   ├── load
     │   ├── train
     │   ├── transform
-    ├── tests
-    │   ├── integration
-    │   ├── unit
     
     ├── .gitignore
     ├── LICENSE
