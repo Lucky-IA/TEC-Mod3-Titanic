@@ -22,17 +22,6 @@ TEC Monterrey - Machine Learning - Modulo 3
 
 https://github.com/Lucky-IA/TEC-Mod3-Titanic
 
-
-```
-$ git clone https://github.com/Lucky-IA/TEC-Mod3-Titanic.git
-```
-
-```
-$ git add .
-$ git commit -m "first commit"
-$ git push
-```
-
 ## Structure and Scripts
 
 ```
@@ -61,7 +50,15 @@ $ pip install -r requirements.txt
 
 ## Serve Model with FastAPI
 
-
+> /src/titanic_main.py
 
 ## Good Development Practices
 
+```
+$ black /src/titanic_main.py
+
+$ black /src/classifier/titanic_classifier.py
+$ black /src/load/data_load.py
+$ black /src/train/train_model.py
+$ black /src/transform/transform_data.py
+```
